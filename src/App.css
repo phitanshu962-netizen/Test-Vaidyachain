@@ -88,12 +88,29 @@
   background: linear-gradient(45deg, #f5576c, #f093fb);
 }
 
+.error-message {
+  background-color: rgba(220, 53, 69, 0.2);
+  color: #dc3545;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(220, 53, 69, 0.3);
+  font-weight: 600;
+}
+
 .description {
   margin-top: 40px;
   font-size: 1.1rem;
   opacity: 0.8;
   max-width: 600px;
   line-height: 1.6;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
 }
 
 @media (max-width: 768px) {
